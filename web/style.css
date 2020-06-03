@@ -1,0 +1,44 @@
+/* Button */
+.button {
+    border-radius: 2px;
+    border-style: double;
+    width: 60px;
+    height: 60px;
+    background-color:#11d3b3;
+}
+
+.button:hover {
+    background-color:#119cd3;
+}
+p {
+    font-size: 10sp;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 0;
+    margin: 0;
+}
+
+.center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Transition Durations */
+.transition300ms {
+    -webkit-transition-duration: 300ms;
+    -o-transition-duration: 300ms;
+    transition-duration: 300ms;
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+
+.container {
+    border-radius: 5px;
+    border-color: #11d3b3;
+    border-style: groove;
+    width: 80px;
+}
